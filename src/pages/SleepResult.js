@@ -2,18 +2,18 @@ import React from 'react'
 import HeaderOne from '../common/header/HeaderOne'
 import FooterTwo from '../common/footer/FooterTwo'
 import Breadcrumb from '../common/breadcrumb/Breadcrumb'
-import SleepingTestComponent from '../components/sleepingTest/SleepingTestComponent'
+import SleepResultComponent from '../components/sleepingTest/SleepResultComponent'
 
-const SleepingTest = () => {
+const SleepResult = () => {
   return (
     <div>
       <HeaderOne />
-      <Breadcrumb heading="Question" currentPage="question" />
-      <SleepingTestComponent />
+      <Breadcrumb heading="Result" currentPage="reslut" />
+      <SleepResultComponent />
       <FooterTwo />
 
     </div>
   )
 }
 
-export default SleepingTest
+export default SleepResult

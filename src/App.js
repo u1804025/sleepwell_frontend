@@ -26,6 +26,7 @@ import Doctor from './pages/Doctor';
 import Booking from './pages/Booking';
 import Appoinment from './pages/Appoinment';
 import SleepingTest from './pages/SleepingTest';
+import SleepResult from './pages/SleepResult';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         <Route path={"/doctor-booking/:doctorId"} exact element={<Booking />} />
         <Route path={"/appointment-list"} exact element={<Appoinment />} />
         <Route path={"/sleeping-test"} exact element={<SleepingTest />} />
+        <Route path={"/result"} exact element={<SleepResult />} />
 
 
 
